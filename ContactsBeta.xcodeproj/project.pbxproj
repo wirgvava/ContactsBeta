@@ -14,6 +14,14 @@
 		A5D5D66529327A5200165A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D5D66329327A5200165A3F /* LaunchScreen.storyboard */; };
 		A5D5D67029327A5200165A3F /* ContactsBetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D66F29327A5200165A3F /* ContactsBetaTests.swift */; };
 		A5D5D67B29327A5200165A3F /* ContactsBetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D67A29327A5200165A3F /* ContactsBetaUITests.swift */; };
+		A5D5D69129327BFC00165A3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69029327BFC00165A3F /* ProfileViewController.swift */; };
+		A5D5D69329327C1800165A3F /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69229327C1800165A3F /* AddContactViewController.swift */; };
+		A5D5D69529327C3700165A3F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69429327C3700165A3F /* FavoritesViewController.swift */; };
+		A5D5D69729327CC100165A3F /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69629327CC100165A3F /* FavoritesTableViewCell.swift */; };
+		A5D5D69929327CDE00165A3F /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69829327CDE00165A3F /* ContactsTableViewCell.swift */; };
+		A5D5D69B29327CF800165A3F /* AboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69A29327CF800165A3F /* AboutTableViewCell.swift */; };
+		A5D5D69D29327D1300165A3F /* UsersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69C29327D1300165A3F /* UsersDataManager.swift */; };
+		A5D5D69F29327D2E00165A3F /* CallActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5D69E29327D2E00165A3F /* CallActionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +48,21 @@
 		A5D5D65F29327A5200165A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5D5D66129327A5200165A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D5D66429327A5200165A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5D5D66629327A5200165A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D5D66629327A5200165A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContactsBeta/Info.plist; sourceTree = "<group>"; };
 		A5D5D66B29327A5200165A3F /* ContactsBetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsBetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D5D66F29327A5200165A3F /* ContactsBetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsBetaTests.swift; sourceTree = "<group>"; };
 		A5D5D67129327A5200165A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D5D67629327A5200165A3F /* ContactsBetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsBetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D5D67A29327A5200165A3F /* ContactsBetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsBetaUITests.swift; sourceTree = "<group>"; };
 		A5D5D67C29327A5200165A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D5D69029327BFC00165A3F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A5D5D69229327C1800165A3F /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		A5D5D69429327C3700165A3F /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		A5D5D69629327CC100165A3F /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		A5D5D69829327CDE00165A3F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		A5D5D69A29327CF800165A3F /* AboutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewCell.swift; sourceTree = "<group>"; };
+		A5D5D69C29327D1300165A3F /* UsersDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersDataManager.swift; sourceTree = "<group>"; };
+		A5D5D69E29327D2E00165A3F /* CallActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallActionDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 				A5D5D66E29327A5200165A3F /* ContactsBetaTests */,
 				A5D5D67929327A5200165A3F /* ContactsBetaUITests */,
 				A5D5D65829327A5200165A3F /* Products */,
+				A5D5D66629327A5200165A3F /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +114,10 @@
 		A5D5D65929327A5200165A3F /* ContactsBeta */ = {
 			isa = PBXGroup;
 			children = (
-				A5D5D65A29327A5200165A3F /* AppDelegate.swift */,
-				A5D5D65C29327A5200165A3F /* ViewController.swift */,
-				A5D5D65E29327A5200165A3F /* Main.storyboard */,
-				A5D5D66129327A5200165A3F /* Assets.xcassets */,
-				A5D5D66329327A5200165A3F /* LaunchScreen.storyboard */,
-				A5D5D66629327A5200165A3F /* Info.plist */,
+				A5D5D68829327A7400165A3F /* Assets */,
+				A5D5D68929327A8A00165A3F /* Classes */,
+				A5D5D68B29327AA900165A3F /* Storyboards */,
+				A5D5D68A29327A9E00165A3F /* Core */,
 			);
 			path = ContactsBeta;
 			sourceTree = "<group>";
@@ -123,6 +138,79 @@
 				A5D5D67C29327A5200165A3F /* Info.plist */,
 			);
 			path = ContactsBetaUITests;
+			sourceTree = "<group>";
+		};
+		A5D5D68829327A7400165A3F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D66129327A5200165A3F /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		A5D5D68929327A8A00165A3F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D68F29327B2800165A3F /* Home */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A5D5D68A29327A9E00165A3F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D65A29327A5200165A3F /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A5D5D68B29327AA900165A3F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D65E29327A5200165A3F /* Main.storyboard */,
+				A5D5D66329327A5200165A3F /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		A5D5D68C29327B0B00165A3F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D69E29327D2E00165A3F /* CallActionDelegate.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		A5D5D68D29327B1400165A3F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D69C29327D1300165A3F /* UsersDataManager.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		A5D5D68E29327B1900165A3F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D69629327CC100165A3F /* FavoritesTableViewCell.swift */,
+				A5D5D69829327CDE00165A3F /* ContactsTableViewCell.swift */,
+				A5D5D69A29327CF800165A3F /* AboutTableViewCell.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		A5D5D68F29327B2800165A3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5D68C29327B0B00165A3F /* Protocol */,
+				A5D5D68D29327B1400165A3F /* Data */,
+				A5D5D68E29327B1900165A3F /* TableView */,
+				A5D5D65C29327A5200165A3F /* ViewController.swift */,
+				A5D5D69029327BFC00165A3F /* ProfileViewController.swift */,
+				A5D5D69229327C1800165A3F /* AddContactViewController.swift */,
+				A5D5D69429327C3700165A3F /* FavoritesViewController.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D5D69D29327D1300165A3F /* UsersDataManager.swift in Sources */,
+				A5D5D69929327CDE00165A3F /* ContactsTableViewCell.swift in Sources */,
+				A5D5D69B29327CF800165A3F /* AboutTableViewCell.swift in Sources */,
+				A5D5D69529327C3700165A3F /* FavoritesViewController.swift in Sources */,
+				A5D5D69F29327D2E00165A3F /* CallActionDelegate.swift in Sources */,
+				A5D5D69729327CC100165A3F /* FavoritesTableViewCell.swift in Sources */,
+				A5D5D69129327BFC00165A3F /* ProfileViewController.swift in Sources */,
+				A5D5D69329327C1800165A3F /* AddContactViewController.swift in Sources */,
 				A5D5D65D29327A5200165A3F /* ViewController.swift in Sources */,
 				A5D5D65B29327A5200165A3F /* AppDelegate.swift in Sources */,
 			);
